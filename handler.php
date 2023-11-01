@@ -10,12 +10,12 @@
   <body>
     
     <?php
-    $myVariable = "";
-    if ( isset( $_POST['myVariable'] ) ){
-      $myVariable = $_POST['myVariable'];
+    $Pizza = "";
+    if ( isset( $_POST['Pizza'] ) ){
+      $Pizza = $_POST['Pizza'];
     }
     echo "<h1>My Program</h1>\n";
-    echo "<p>My Variable is = ".$myVariable."</p>\n";
+    echo "<p>My Variable is = ".$Pizza."</p>\n";
     ?>
     
   </body>
