@@ -11,4 +11,4 @@ if toppings > 4:
 elif toppings <= 0:
     print("Please choose 1-4 toppings only please")
 else:
-    print("")
+    print("You have chosen ")
